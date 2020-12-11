@@ -30,5 +30,6 @@ class flashServiceProvider extends ServiceProvider
         $this->loadViewComponentsAs('flashmessagecomponent', [
             flash::class
         ]);
+        // test
     }
 }
