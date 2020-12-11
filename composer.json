@@ -1,0 +1,20 @@
+{
+    "name": "bishal/flashmessage",
+    "description": "Package to display flash message with ability to display in different types: success, warning, danger and info",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bishal",
+            "email": "bishal.g@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bishal\\FlashMessage\\": "src/"
+        }
+    }
+
+}
