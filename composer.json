@@ -9,7 +9,7 @@
             "email": "bishal.g@icloud.com"
         }
     ],
-    "minimum-stability": "1.0",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
