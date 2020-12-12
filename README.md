@@ -38,7 +38,7 @@ Follow these simple steps to start:
     ```html
       <x-flashmessagecomponent-flash /> 
     ```
-    This should display a flash message on your browser with correct background colour.
+    This should display a flash message on your browser with correct background colour as required.
 
     ![Screenshot](success.png)
     ![Screenshot](warning.png)
