@@ -28,20 +28,28 @@ Follow these simple steps to start:
       
       you have these 4 options for flashColourType:
       
-         * success = green background colour 
-         * danger = red background colour 
-         * warning = orange background colour 
-         * info = blue background colour 
+success = green background colour 
+![Screenshot](success.png)
 
+         
+danger = red background colour 
+         
+![Screenshot](danger.png)
+         
+warning = orange background colour 
+![Screenshot](warning.png)
+         
+info = blue background colour 
+         
+![Screenshot](info.png)
+         
+    
 
 4. Finally, just add html flash tag on your blade file as below:
     ```html
       <x-flashmessagecomponent-flash /> 
     ```
     This should display a flash message on your browser with correct background colour.
-    
-
 
 ![Screenshot](success.png)
-![Screenshot](danger.png)
-    
+
