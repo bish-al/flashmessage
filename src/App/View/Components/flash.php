@@ -12,7 +12,7 @@ class flash extends Component
     const flashColoursCombination = [
         'success' => 'bg-green-400',
         'danger' => 'bg-red-400',
-        'warning' => 'bg-orange-400',
+        'warning' => 'bg-yellow-600',
         'info' => 'bg-blue-400',
     ];
     /**
