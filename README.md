@@ -14,13 +14,15 @@ Follow these simple steps to start:
     ```html
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     ```
-3. Push flash message via laravel session helper as below, I have just added on the Route web.php file to get started but it can be added anywhere else as required:
+3. Push flash message as shown below (Flash::display($message, $colourType)), I have just added on the Route web.php file to get started but it can be added anywhere else as required:
       
       ```php
+
+          use Bishal\FlashMessage\App\Models\Flash;
+
           Route::get('/', function () {
 
-              session()->flash('flashMessage', 'your flash message here');
-              session()->flash('flashColourType', 'success'); 
+              Flash::display('Your flash message here!', 'success');
 
               return view('welcome');
           });
